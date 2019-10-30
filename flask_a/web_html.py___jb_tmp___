@@ -1,0 +1,7 @@
+from flask import Blueprint
+
+
+#创建静态文件蓝图
+html = Blueprint("web_html",__name__)
+
+#导入蓝图的视图
